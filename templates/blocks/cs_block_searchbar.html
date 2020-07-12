@@ -1,0 +1,11 @@
+<form action="<{$xoops_url}>/modules/customsearch/searchresults.php" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="<{$block.google_cx}>" />
+    <input type="hidden" name="cof" value="<{$block.google_cof}>" />
+    <input type="hidden" name="ie" value="<{$block.google_ie}>" />
+    <input type="text" name="q" size="<{$block.google_q}>" />
+    <input type="submit" name="sa" value="<{$block.google_sa}>" />
+  </div>
+</form>
+
+<script type="text/javascript" src="<{$block.google_scriptsrc}>"></script>
